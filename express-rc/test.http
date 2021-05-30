@@ -1,0 +1,18 @@
+
+### 
+GET http://localhost:3000/user/get-user
+
+### 
+POST http://localhost:3000/user/add-user
+
+### 
+POST http://localhost:3000/user/add-user
+Content-Type: application/json
+
+{"name": "9999999999999","id": "1111"}
+
+###
+POST http://localhost:3000/user/update-user
+Content-Type: application/json
+
+{"name": "9999999999999","id": "1111"
