@@ -1,0 +1,20 @@
+POST http://localhost:8080/user/register
+Content-Type: application/json
+
+{"name": "Timi11", "password": "234453" }
+
+
+###
+
+POST http://localhost:8080/user/login
+Content-Type: application/json
+
+{"name": "Tom", "password": "234453"}
+
+###
+
+GET http://localhost:8080/user/get-user-info
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiVG9tIiwiaWF0IjoxNjIzNTcyOTY4LCJleHAiOjE2MjM2MDg5Njh9.9_ns8nAxKgZR2enP6xdwUZ0mqlw-Nkx_-MI24pQ980I
+
+###
+GET http://localhost:8080/user/get-user-info

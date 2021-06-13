@@ -1,0 +1,11 @@
+###
+
+GET http://localhost:8080/home/list
+
+
+### /home/add-list
+
+POST http://localhost:8080/home/add-list
+Content-Type: application/json
+
+{"name": "test-name", "age": 22}

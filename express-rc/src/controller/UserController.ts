@@ -19,7 +19,7 @@ import {
 } from "routing-controllers"
 import { Service } from "typedi"
 import UserService from "../service/UserService"
-import { User } from "../model/User"
+import { User } from "../model/User.dto"
 import { validate } from "class-validator"
 import { plainToClass } from "class-transformer"
 
